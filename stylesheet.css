@@ -37,4 +37,6 @@ body {
 
 #footer {
 	background-color: rgb(59,89,152);
+	color: white;
+	font-style: italic;
 }
