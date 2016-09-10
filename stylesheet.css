@@ -4,27 +4,34 @@ body {
 
 #header {
 	background-color: rgb(59,89,152);
+	width: 90%;
 }
 
 #container {
 	background-color: rgb(59,89,152);
+	width: 40%;
 }
 
 #left-box {
+	display: flex;
+	flex-direction: column;
 	background-color: rgb(9,30,45);
 	color: white;
 }
 
 .imageflottante {
 	float: left;
+	margin: auto;
 }
 
 .dessous {
 	clear: both;
+	margin-top: 50px;
 }
 
 #right-box {
 	background-color: rgb(9,30,45);
+	width: 50%;
 }
 
 #experiences-box {
