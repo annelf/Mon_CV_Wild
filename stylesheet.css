@@ -4,12 +4,15 @@ body {
 
 #header {
 	background-color: rgb(59,89,152);
-	width: 90%;
+	border: 3px red;
 }
 
 #container {
+	display: flex;
 	background-color: rgb(59,89,152);
-	width: 40%;
+	width: 50%;
+	border: 3px red;
+
 }
 
 #left-box {
@@ -17,6 +20,7 @@ body {
 	flex-direction: column;
 	background-color: rgb(9,30,45);
 	color: white;
+	border: 3px red;
 }
 
 .imageflottante {
@@ -30,6 +34,9 @@ body {
 }
 
 #right-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
 	background-color: rgb(9,30,45);
 	width: 50%;
 }
